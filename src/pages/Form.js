@@ -32,6 +32,7 @@ const Form = ({ initialPlant, handleSubmit, buttonLabel }) => {
         placeholder="PLANT TITLE"
         name="name"
       />
+      <br/>
       <textarea
         type="text"
         id="description"
@@ -40,6 +41,7 @@ const Form = ({ initialPlant, handleSubmit, buttonLabel }) => {
         placeholder="PLANT DESCRIPTION"
         name="description"
       />
+      <br/>
       <input
         type="text"
         id="image"

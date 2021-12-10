@@ -2,8 +2,9 @@
 import AllPosts from "./pages/AllPosts";
 import SinglePost from "./pages/SinglePost";
 import Form from "./pages/Form";
-import AboutPost from "./pages/AboutPost"
+import AboutPost from "./pages/AboutPost";
 import Guide from "./pages/Guide";
+
 
 // Import Hooks from React
 import { useState, useEffect } from "react";
@@ -109,8 +110,8 @@ function App() {
         <h1 className="plant-link">Plant</h1>
       </Link>
 
-      <Link to="/about">
-        <h1 className="plant-link">About</h1>
+      <Link to="/zodiac">
+        <h1 className="plant-link">Zodiac</h1>
       </Link>
 
       <Link to="/guide">
@@ -151,7 +152,7 @@ function App() {
           }
         />
         <Route
-          path="/about"
+          path="/zodiac"
           element={
             <AboutPost
             />

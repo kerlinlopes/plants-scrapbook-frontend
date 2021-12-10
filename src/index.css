@@ -4,6 +4,7 @@
 html {
   background: url("https://c1.wallpaperflare.com/preview/781/482/372/paper-scrapbook-texture-decorative.jpg");
 }
+
 /* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 
@@ -15,7 +16,7 @@ html {
   margin-top: 5%;
 }
 .card {
-  border: 2px dotted red;
+  /* border: 2px dotted red; */
   width: 400px;
   min-width: 300px;
   height: 300px;
@@ -25,18 +26,24 @@ html {
 .Title {
   font-family: "Lora", serif;
   color: black;
-}
-.header{
   display: flex;
   justify-content: center;
+  margin-inline: auto;
+  min-width: (90%, 70.5rem);
+}
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
   justify-content: space-around;
-
+  margin-inline: auto;
+  min-width: (90%, 70.5rem);
 }
 .plant-link {
   font-family: "Lora", serif;
   font-size: 2em;
   color: beige;
-  display: inline-flex;
+  display: flex;
   margin: 5%;
 }
 
@@ -45,13 +52,15 @@ html {
 .name {
   font-family: "Lora", serif;
   color: beige;
-}
-.description {
-  font-family: "Lora", serif;
-  color: rgb(16, 95, 16);
+  margin-inline: auto;
+  min-width: (90%, 70.5rem);
+  /* margin-inline: auto;
+  width: min(90%, 70.5rem); */
 }
 .image {
   width: 300px;
+  margin-inline: auto;
+  min-width: (90%, 70.5rem);
 }
 
 /* SINGLE POSTS */
@@ -59,22 +68,56 @@ html {
   font-family: "Lora", serif;
   color: rgb(16, 95, 16);
   margin-top: 5%;
-  margin-left: 2%;
-}
-.card-description {
-  border: 2px dotted red;
-  width: 600px;
-  min-width: 150px;
-  height: 300px;
-  margin-left: 50%;
+  margin-left: 2em;
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
 }
 .p-description {
   font-family: "Lora", serif;
   font-size: 1.5em;
   color: beige;
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
 }
 .p-image {
-  width: 30em;
+  display: flex;
+  justify-content: center;
+  width: 50em;
+  margin: auto;
+  min-width: (90%, 70.5rem);
+}
+.delete-button {
+  width: 10em;
+  font-family: "Lora", serif;
+  font-size: 1em;
+  color: green;
+  background-color: beige;
+  border-radius: 1em;
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+}
+.edit-button {
+  width: 10em;
+  font-family: "Lora", serif;
+  font-size: 1em;
+  color: green;
+  background-color: beige;
+  border-radius: 1em;
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+}
+.go-back {
+  width: 10em;
+  font-family: "Lora", serif;
+  font-size: 1em;
+  color: green;
+  background-color: beige;
+  border-radius: 1em;
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
 }
 
 /* NEW POSTS */
@@ -82,29 +125,49 @@ html {
 input[type="text"] {
   font-size: 1.5em;
   font-family: "Lora", serif;
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
+  color: black;
 }
 textarea[type="text"] {
   font-size: 1.5em;
   font-family: "Lora", serif;
+  margin-inline: auto;
+  min-width: (90%, 70.5rem);
+  color: black;
 }
 #name {
+  background: url("https://images.thdstatic.com/productImages/43627a11-157a-448e-870a-5e61bd086dc1/svn/chesapeake-wallpaper-rolls-ccb02134-64_600.jpg");
   margin-top: 5%;
   width: 30em;
   height: 2em;
-  border-radius: 0em;
+  border-radius: 1em;
   border: 2px solid green;
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
 }
 #description {
-  width: 30em;
+  background: url("https://images.thdstatic.com/productImages/43627a11-157a-448e-870a-5e61bd086dc1/svn/chesapeake-wallpaper-rolls-ccb02134-64_600.jpg");
+  width: 27em;
   height: 10em;
-  border-radius: 0em;
+  border-radius: 1em;
   border: 2px solid green;
+  margin: auto;
+  width: min(90%, 70.5rem);
+  color: black;
 }
 #image {
-  width: 30em;
+  background: url("https://images.thdstatic.com/productImages/43627a11-157a-448e-870a-5e61bd086dc1/svn/chesapeake-wallpaper-rolls-ccb02134-64_600.jpg");
+  width: 27em;
   height: 2em;
-  border-radius: 0em;
+  border-radius: 1em;
   border: 2px solid green;
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
+}
+::placeholder {
+  color: rgb(82, 37, 37);
+  opacity: 0.8;
 }
 #new-button {
   width: 10em;
@@ -112,8 +175,213 @@ textarea[type="text"] {
   font-size: 1em;
   color: green;
   background-color: beige;
-  border-radius: 0em;
+  border-radius: 1em;
   border: 2px solid green;
   display: flex;
   justify-content: center;
+}
+
+/* ABOUT PAGE */
+/* honeysuckle */
+.flowers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  min-width: (90%, 70.5rem);
+}
+/* CIRCLE IMAGES */
+.honeysuckle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("./images/yellow-orange-honeysuckle.jpeg");
+  background-size: 500px;
+  background-position-x: 70%;
+  margin: auto;
+  min-width: (90%, 70.5rem);
+  margin-bottom: 2em;
+}
+.poppy {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("./images/Poppy-768x512.jpeg");
+  background-size: 500px;
+  background-position-x: 70%;
+  margin: auto;
+  min-width: (90%, 70.5rem);
+  margin-bottom: 2em;
+}
+.lavender {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("./images/lavender.jpeg");
+  background-size: 500px;
+  background-position-x: 70%;
+  margin: auto;
+  min-width: (90%, 70.5rem);
+  margin-bottom: 2em;
+}
+.whiterose {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("./images/white-roses.jpeg");
+  background-size: 500px;
+  background-position-x: 70%;
+  margin: auto;
+  min-width: (90%, 70.5rem);
+  margin-bottom: 2em;
+}
+.sunflower {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("./images/sunflowers-are-annuals.jpeg");
+  background-size: 500px;
+  background-position-x: 70%;
+  margin: auto;
+  min-width: (90%, 70.5rem);
+  margin-bottom: 2em;
+}
+.buttercup {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("./images/Buttercup-768x538.jpeg");
+  background-size: 500px;
+  background-position-x: 70%;
+  margin: auto;
+  min-width: (90%, 70.5rem);
+  margin-bottom: 2em;
+}
+.rose {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("./images/rose.jpeg");
+  background-size: 500px;
+  background-position-x: 70%;
+  margin: auto;
+  min-width: (90%, 70.5rem);
+  margin-bottom: 2em;
+}
+.geranium {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("./images/Geranium-768x457.jpeg");
+  background-size: 500px;
+  background-position-x: 70%;
+  margin: auto;
+  min-width: (90%, 70.5rem);
+  margin-bottom: 2em;
+}
+.carnation {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("./images/carnation.jpeg");
+  background-size: 500px;
+  background-position-x: 70%;
+  margin: auto;
+  min-width: (90%, 70.5rem);
+  margin-bottom: 2em;
+}
+.pansy {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("./images/pansy.jpeg");
+  background-size: 500px;
+  background-position-x: 70%;
+  margin: auto;
+  min-width: (90%, 70.5rem);
+  margin-bottom: 2em;
+}
+.orchid {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("./images/orchid.jpeg");
+  background-size: 500px;
+  background-position-x: 70%;
+  margin: auto;
+  min-width: (90%, 70.5rem);
+  margin-bottom: 2em;
+}
+.waterlily {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("./images/waterlily.jpeg");
+  background-size: 500px;
+  background-position-x: 70%;
+  margin: auto;
+  min-width: (90%, 70.5rem);
+  margin-bottom: 2em;
+}
+.horoscope {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  min-width: (90%, 70.5rem);
+}
+
+/* editing zodiac buttons */
+#button {
+  width: 10em;
+  font-family: "Lora", serif;
+  font-size: 1em;
+  color: brown;
+  background-color: rgb(255, 196, 120);
+  border-radius: 1em;
+  border: 2px solid rgb(255, 196, 120);
+  display: flex;
+  justify-content: center;
+}
+
+/* Popup style */
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+
+.close-icon {
+  content: "x";
+  cursor: pointer;
+  position: fixed;
+  right: calc(15% - 30px);
+  top: calc(100vh - 85vh - 33px);
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
 }

@@ -22,10 +22,10 @@ const SinglePost = ({ posts, edit, deletePlant }) => {
       <img src={post?.image} alt="" className="p-image"></img>
       <br />
       <br />
-      <button onClick={() => deletePlant(post)}>Delete</button>
-      <button onClick={() => edit(post)}>Edit</button>
+      <button onClick={() => deletePlant(post)} className="delete-button">Delete</button>
+      <button onClick={() => edit(post)} className="edit-button">Edit</button>
       <Link to="/">
-        <button>Go Back</button>
+        <button className="go-back">Go Back</button>
       </Link>
     </div>
   );
