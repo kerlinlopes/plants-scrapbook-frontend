@@ -34,7 +34,7 @@ Plant
 - adding a lot of html
 - wireframing
 
-##List of technologies
+## List of technologies
 - JS, Python-Masonite, Heroku, Vercel
 
 ## Resources
