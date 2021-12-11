@@ -14,15 +14,6 @@ Plant
 ```
 
 ## Rout table
-"/" -> which will Render all of our todos in the AllPosts component
-
-"/post/:id" -> which will render an individual todo in our SinglePost component
-
-"/new" -> which render our Form component for creating a new Todo
-
-"/edit" -> which renders our Form to edit
-
-
 
 | Route Name | URL | HTTP | Description |
 |-----------|------|-------|-------------|
