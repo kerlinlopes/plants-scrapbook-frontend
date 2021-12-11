@@ -385,3 +385,46 @@ textarea[type="text"] {
   border: 1px solid #999;
   font-size: 20px;
 }
+/* guide caro styling */
+#squares {
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  size: 500px;
+
+  margin: auto;
+  min-width: (90%, 70.5rem);
+  margin-top: 2em;
+}
+.guide-h1 {
+  font-family: "Lora", serif;
+  color: brown;
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
+  min-width: (90%, 70.5rem);
+}
+.guide-h2 {
+  font-family: "Lora", serif;
+  color: rgb(9, 83, 9);
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
+  min-width: (90%, 70.5rem);
+}
+.guide-h3 {
+  font-family: "Lora", serif;
+  color: brown;
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
+  min-width: (90%, 70.5rem);
+}
+.article {
+  font-family: "Lora", serif;
+  color: beige;
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
+  min-width: (90%, 70.5rem);
+}
