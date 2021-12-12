@@ -21,6 +21,8 @@ Plant
 | SHOW | /post/:id | GET | Render an individual plant page
 | NEW | /new | GET | render our Form component for creating a new plant
 | EDIT | /edit | GET | Renders our Form to edit our plant
+| UPDATE | /post/:id | PUT | Renders our Form to update our plant
+| DELETE | /post/:id | DELETE | Deletes a plant
 | Zodiac | /zodiac | GET | Renders plants with a button to click and read horoscope 
 | Guide | /guide | GET | Renders a carousel and tips on how to take care for your plants
 
