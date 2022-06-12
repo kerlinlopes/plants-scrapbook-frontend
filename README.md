@@ -1,6 +1,6 @@
 # Project 4 - Plants Scrapbook FRONTEND
 #### BY KERLIN
-![image](https://{https://i.imgur.com/8v2uy0y.png})
+![Alt text](https://i.imgur.com/8v2uy0y.png "Plants Scrapbook")
 
 ## Project Summary
 Creating a frontend Application in React that allows a user to add, edit, create and delete. Have a minimum of 5 Components and be responsive.
